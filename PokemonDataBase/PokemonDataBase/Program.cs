@@ -10,13 +10,13 @@ namespace PokemonDataBase
     {
         static void Main(string[] args)
         {
-            Pokemon shoe = new Pokemon("p");
-            Pokemon apple = new Pokemon("Sweet Apple");
+            Pokemon Charmander = new Pokemon("Charmander");
+            Pokemon Squirtle = new Pokemon("Squirtle");
 
             Inventory inventory = new Inventory();
 
-            inventory.AadPokemon(shoe);
-            inventory.AadPokemon(apple);
+            inventory.AadPokemon(Charmander);
+            inventory.AadPokemon(Squirtle);
 
             Console.WriteLine(inventory.GetPokemons(0).Name);
             Console.WriteLine(inventory.GetPokemons(1).Name);
